@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+database:
+  host: localhost
+  port: 5432
+  dbname: auth_db
+  sslmode: disable
+
+jwt:
+  access_token_expiry: 15m
+  refresh_token_expiry: 7d
+
+redis:
+  host: localhost
+  port: 6379
+  db: 0
